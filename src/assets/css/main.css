@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.theme-light {
+    --page-background-color: #E2E8F0;
+    --navbar-background-color: white;
+    --navbar-item-background-color: gray;
+    --navbar-item-hover-background-color: gray;
+    --card-background-color: gray;
+    --button-bakground-color: gray;
+    --button-hover-background-color: gray;
+
+    --default-text-color: black;
+    --main-text-color: pink;
+}
+
+.theme-dark {
+    --page-background-color: rgb(65, 67, 70);
+    --navbar-background-color: rgb(94, 91, 91);
+    --navbar-item-background-color: gray;
+    --navbar-item-hover-background-color: gray;
+    --card-background-color: gray;
+    --button-bakground-color: gray;
+    --button-hover-background-color: gray;
+
+    --default-text-color: white;
+    --main-text-color: pink;
+}
